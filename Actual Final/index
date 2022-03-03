@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Intro Page</title>
+<meta charset="UTF-8" />
+</head>
+
+<body>
+
+
+<header>
+<img class="banner"
+Src="images/banner. jpg"alt="Header Banner Image">
+
+</header>
+
+<nav>
+
+<div class="topnav">
+<a href - "index.html" class"active">HOME</a>
+<a href - "Blank.html" >Page 2</a>
+<a href - "Blank.html" >Page 3</a>
+<a href - "Blank.html" >Page 4</a>
+
+<section>
+<h1>Image</h1>
+<img class=photograph" src="images/image.jpg" alt-"image for mulitmedia site">
+
+
+<hr>
+<h1>Sound</h1>
+<audio controls>
+<source src="audio/bensound-creativeminds.mp3"type="audio/mpeg">
+Your browser does not suport the audio element.
+</audio>
+<p> Song"creative Minds" can be downladed free at bensound.com</p> 
+
+<hr>
+<h1>Slideshow</h1>
+
+</section>
+
+<footer></footer>
+
+</body>
+
+</html>
+
+</div>
+</body>
+</html>

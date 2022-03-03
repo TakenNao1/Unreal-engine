@@ -1,0 +1,78 @@
+ /*CSS DOCUMENT FOR MULTIMEDIA TEMPLATE PAGE by Tony Booth 2022*/
+
+body{background-color: #000000;}
+
+.pagebox{background-color: #fff;
+width: 70%;
+margin: auto;}
+
+.banner{width: 100%;}
+
+h2{font-family: helvetica;
+color: #034624;}
+
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000;}
+
+li{float: left;
+font-family: helvetica;}
+
+li a{display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;}
+
+li.current{background-color: black;}
+li:hover{background-color: #111;}
+
+.smallpic{width: 33%;
+float: left;
+padding: 5px;}
+
+hr{clear: both;}
+
+.bigpic{width: 100%;}
+
+audio{width:100%;}
+
+.fling-minislide{width: 100%;
+height: 0px;
+overflow: hidden;
+position: relative;
+padding-bottom: 50%;}
+
+.fling-minislide img{position: absolute;
+animation: fling-minislide 20s infinite;
+opacity: 0;
+width: 100%;
+height: auto;}
+
+@keyframes fling-minislide{25%{opacity: 1;} 40%{opacity: 0;}}
+.fling-minislide img:nth-child(4){animation-delay: 0s;}
+.fling-minislide img:nth-child(3){animation-delay: 5s;}
+.fling-minislide img:nth-child(2){animation-delay: 10s;}
+.fling-minislide img:nth-child(1){animation-delay: 15s;}
+
+.slideshowpic{width: 100%;
+height: auto;}
+
+.video_container{position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;}
+
+iframe, ._video_container object{border: none;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;}
+
+text-align: center;}
+footer{font-style: italic;}
+
